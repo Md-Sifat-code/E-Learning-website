@@ -137,8 +137,45 @@ line-height: 30px;
 letter-spacing: 0%;
 margin-top: 20px;
 }
+/* Welcome-part */
+.Welcome{
+    display: flex;
+    height: 379px;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: 20.5%;
+    margin-top: 5.5%;
+    gap: 25%;
 
-/* meadia quary for header */
+
+}
+.dis>h1{
+    color: rgb(0, 0, 0);
+    
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: -20px;
+}
+.dis>p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+span{
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+
+}
+
+
+/* meadia quary */
 @media only screen and (max-width: 576px) {
     .header{
         flex-direction: column;
@@ -182,6 +219,25 @@ margin-top: 20px;
     }
     .btn-start{
         margin-top: 50px;
+    }
+    .part2>img{
+        width: 576px;
+        height: auto;
+        margin-left: -45px;
+        /* border: 2px solid red; */
+    }
+    /* welcome part */
+    .Welcome{
+        flex-direction: column;
+        /* height: auto; */
+        margin-top: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .pic>img{
+        width: 576px;
+        height: 379px;
+        
     }
 
     
