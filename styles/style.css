@@ -86,6 +86,58 @@
     letter-spacing: 0%;
 
 }
+/* Start learning Part */
+.learning{
+    display: flex;
+    height: 487px;
+    /* border: 2px solid red; */
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 5.5%;
+    gap: 35%;
+
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1>h1{
+    color: rgb(0, 0, 0);
+    
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: -20px;
+}
+.part1>p{
+    color: rgba(0, 0, 0, 0.46);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn-start{
+
+width: 200px;
+height: 44px;
+border-radius: 10px;
+
+background: rgb(104, 44, 14);
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+margin-top: 20px;
+}
+
 /* meadia quary for header */
 @media only screen and (max-width: 576px) {
     .header{
@@ -122,6 +174,14 @@
     .btn-contract{
         margin-top: 20px;
         /* width: auto; */
+    }
+    /* learning -section */
+    .learning{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .btn-start{
+        margin-top: 50px;
     }
 
     
