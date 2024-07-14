@@ -1,0 +1,87 @@
+/* Font-style */
+.jim-nightshade-regular {
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header-part */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Rectangle 7 */
+    width: auto;
+    height: 124px;
+    background: rgb(249, 224, 174);
+
+}
+.head-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+.head-part1>h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.head-part2{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.head-part2>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 15%;
+    align-items: center;
+    margin-top: 6.5%;
+    list-style-type: none;
+
+
+}
+.head-part2>nav>ul>li{
+    font-size: 20px;
+    font-weight: 600px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.head-part2>nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+.head-part2>nav>ul>li>img{
+    margin-left: 10%;
+}
+.btn-contract{
+
+    width: 150px;
+    height: 39px;
+    left: 1030px;
+    top: 54px;
+    border-radius: 10px;
+
+    background: rgb(194, 73, 20);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+
+}
